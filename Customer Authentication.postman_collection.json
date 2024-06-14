@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "6c687dc9-2c1d-4bed-b29d-fa9d47672343",
+		"name": "Customer Authentication",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13238706"
+	},
+	"item": [
+		{
+			"name": "Account-Overview-WithCorrectToken",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyRnVsbE5hbWUiOiJheWNhIiwiaWQiOjEsInVzZXJuYW1lIjoiYXljdHVnY2VrYWsiLCJzdWIiOiJheWN0dWdjZWthayIsImlhdCI6MTcxODM4MzEzMSwiZXhwIjoxNzE4Mzg5MTMxfQ.pEnB4j3MxZlV-4vVdKhk6OZ4K0EbfyNR3Tu7Zfis2EY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:1222/api/v1/account/overview",
+					"host": [
+						"localhost"
+					],
+					"port": "1222",
+					"path": [
+						"api",
+						"v1",
+						"account",
+						"overview"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Account-Overview-WithoutToken",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:1222/api/v1/account/overview",
+					"host": [
+						"localhost"
+					],
+					"port": "1222",
+					"path": [
+						"api",
+						"v1",
+						"account",
+						"overview"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userName\" : \"ayctugcekak\",\n    \"name\" : \"ayca\",\n    \"address\" : \"FannyBlkanr\",\n    \"dateOfBirth\" : \"14-11-1988\",\n    \"idDocNumber\" : \"121212121\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:1222/api/v1/register",
+					"host": [
+						"localhost"
+					],
+					"port": "1222",
+					"path": [
+						"api",
+						"v1",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logon-WithUnknownUser",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userName\": \"ayctugcekak\",\n    \"password\": \"vy!Jmw\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:1222/api/v1/logon",
+					"host": [
+						"localhost"
+					],
+					"port": "1222",
+					"path": [
+						"api",
+						"v1",
+						"logon"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logon-WithUser",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userName\": \"ayctugcekak\",\n    \"password\": \"up3pQv\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:1222/api/v1/logon",
+					"host": [
+						"localhost"
+					],
+					"port": "1222",
+					"path": [
+						"api",
+						"v1",
+						"logon"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

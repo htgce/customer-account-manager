@@ -1,0 +1,42 @@
+version: '3.3'
+
+services:
+  database:
+    image: mysql/mysql-server:8.0
+    restart: always
+    container_name: customerauth-db
+    environment:
+      MYSQL_DATABASE: 'customerauth'
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_HOST: '%'
+      MYSQL_PORT: 3306
+    ports:
+      - '3306:3306'
+    volumes:
+    - ./db:/var/lib/mysql
+    networks:
+    - customerauhtNetwork
+
+  customerauth:
+      image: 'customerauth:latest'
+      build:
+        context: .
+        dockerfile: Dockerfile
+      container_name: customerauth
+      restart: on-failure
+      ports:
+        - "1222:1222"
+      environment:
+        - server.port=1222
+        - spring.datasource.username=root
+        - spring.datasource.password=root
+        - CUSTOMER_AUTH_DB_IP=database
+        - CUSTOMER_AUTH_DB_PORT=3306
+        - spring.datasource.url=jdbc:mysql://customerauth-db:3306/customerauth
+      depends_on:
+        - database
+      networks:
+        - customerauhtNetwork
+networks:
+  customerauhtNetwork:
