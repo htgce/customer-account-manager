@@ -1,7 +1,12 @@
 package com.abnambro.customer.account.manager.web;
 
+import com.abnambro.customer.account.manager.model.entity.Customer;
 import com.abnambro.customer.account.manager.service.AccountService;
 import com.abnambro.customer.account.manager.service.LogonService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpRequest;
@@ -24,6 +29,11 @@ public class AccountController implements AccountApi {
     }
 
     @PostMapping(value = "/overview")
+    @Operation(summary = "Get user details", description = "Receive JWT tokens and returns customer overview.",
+            responses = {
+                    @ApiResponse(responseCode = "200", description = "User logged in successfully",
+                            content = @Content(schema = @Schema(implementation = Customer.class)))
+            })
     public ResponseEntity<?> overview() {
          return new ResponseEntity<>(accountService.getOverview(), HttpStatusCode.valueOf(200));
     }

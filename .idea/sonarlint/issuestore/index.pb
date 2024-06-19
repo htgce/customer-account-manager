@@ -1,6 +1,4 @@
 
-|
-Lsrc/main/java/com/abnambro/customer/account/manager/web/RegistrationApi.java,2/b/2be2f79255b702fbb16777af4420edb38967cf24
 Š
 Zsrc/main/java/com/abnambro/customer/account/manager/model/request/RegistrationRequest.java,1/2/12b9f8a275d322b0f3ae98636856f8fde5135620
 u
@@ -25,8 +23,6 @@ Xsrc/main/java/com/abnambro/customer/account/manager/service/validator/DataValid
 Nsrc/main/java/com/abnambro/customer/account/manager/model/entity/Customer.java,4/e/4e28edacd315a425726bf9588f2e81c2e9177e47
 ƒ
 Ssrc/main/java/com/abnambro/customer/account/manager/security/CustomUserDetails.java,2/7/27aca604753eff1120fc1b9981858bc1850d75e1
-|
-Lsrc/main/java/com/abnambro/customer/account/manager/web/LogonController.java,6/7/67ba738754ff72e5534a863b0da5a8b9712354e1
 }
 Msrc/test/java/com/abnambro/customer/account/manager/base/BaseServiceTest.java,d/6/d6c043a456dece4a49209ca200842fdd80e90b28
 R
@@ -49,8 +45,6 @@ fsrc/main/java/com/abnambro/customer/account/manager/exception/user/UserNameAlre
 Msrc/main/java/com/abnambro/customer/account/manager/service/LogonService.java,9/2/924121828c1e0744439a3187d49b0a6df18b40ad
 ˆ
 Xsrc/test/java/com/abnambro/customer/account/manager/service/RegistrationServiceTest.java,2/b/2bbabcfb4583eee8ee237bd6142102a6b15ec89b
-ƒ
-Ssrc/main/java/com/abnambro/customer/account/manager/web/RegistrationController.java,b/5/b5c8288c962aa2ef3b621ddc6ed0a018fe6dfaba
 „
 Tsrc/main/java/com/abnambro/customer/account/manager/service/RegistrationService.java,4/f/4f9751dcbd4ebfd27c7baa234189bd51fb5fe6be
 ƒ
