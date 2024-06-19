@@ -131,7 +131,7 @@ $ mvn spring-boot:run
 <details>
 <summary>Click here to show the screenshots of project</summary>
     <p> Figure 1 </p>
-    <img src ="screenshots/Screenshot 2024-05-01 at 11.06.04.png">
+    <img src ="screenshots/Screenshot 2024-06-14 at 11.52.02.png">
     <p> Figure 2 </p>
     <img src ="screenshots/Screenshot 2024-06-14 at 18.40.08.png">
     <p> Figure 3 </p>
@@ -140,5 +140,7 @@ $ mvn spring-boot:run
     <img src ="screenshots/Screenshot 2024-06-14 at 18.40.16.png">
     <p> Figure 5 </p>
     <img src ="screenshots/Screenshot 2024-06-14 at 18.40.19.png">
+    <p> Figure 6 </p>
+    <img src ="screenshots/Screenshot 2024-06-14 at 18.40.01.png">
 </details>
 
