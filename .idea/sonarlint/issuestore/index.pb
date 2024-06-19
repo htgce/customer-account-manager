@@ -11,16 +11,10 @@ Esrc/main/java/com/abnambro/customer/account/manager/web/LogonApi.java,c/4/c437
 Usrc/main/java/com/abnambro/customer/account/manager/model/response/LogonResponse.java,6/a/6af578f508aace876b45ba7bc37fa35fdc8dabc5
 w
 Gsrc/main/java/com/abnambro/customer/account/manager/web/AccountApi.java,a/e/ae3d2d0177cb0b58ff383bc248d242c2f3fa62c5
-y
-Isrc/main/java/com/abnambro/customer/account/manager/config/AppConfig.java,6/5/658287d868e81ac5513fa91de229d2cb58014f35
-}
-Msrc/main/java/com/abnambro/customer/account/manager/config/OpenApiConfig.java,5/3/534982a88bde4119a0c25dea9054faba3bb386a7
 à
 Xsrc/main/java/com/abnambro/customer/account/manager/service/validator/DataValidator.java,3/f/3fb9f11db148046cc130597da3100d57553f1b8f
 å
 \src/main/java/com/abnambro/customer/account/manager/service/validator/IdNumberValidator.java,2/3/23d427a262044e4669941d5678a0b526405908f1
-á
-Wsrc/main/java/com/abnambro/customer/account/manager/security/jwt/AuthEntryPointJwt.java,e/3/e3be3c8d6477e84ad82f23335107b3fd63a6a50f
 ã
 [src/main/java/com/abnambro/customer/account/manager/security/model/entity/RefreshToken.java,5/0/504d78b2a9146562858a33871b99b2a03be8700b
 ç
@@ -57,8 +51,6 @@ fsrc/main/java/com/abnambro/customer/account/manager/exception/user/UserNameAlre
 Msrc/main/java/com/abnambro/customer/account/manager/service/LogonService.java,9/2/924121828c1e0744439a3187d49b0a6df18b40ad
 à
 Xsrc/test/java/com/abnambro/customer/account/manager/service/RegistrationServiceTest.java,2/b/2bbabcfb4583eee8ee237bd6142102a6b15ec89b
-~
-Nsrc/main/java/com/abnambro/customer/account/manager/config/SecurityConfig.java,d/5/d5711421fa5cea4b7b47e1fc91255829bd9cf1fc
 É
 Ssrc/main/java/com/abnambro/customer/account/manager/web/RegistrationController.java,b/5/b5c8288c962aa2ef3b621ddc6ed0a018fe6dfaba
 Ñ
@@ -67,8 +59,6 @@ Tsrc/main/java/com/abnambro/customer/account/manager/service/RegistrationService
 Ssrc/test/java/com/abnambro/customer/account/manager/service/AccountServiceTest.java,d/f/df2dde3ffd70d9d94a0123fef56142bd6a96a043
 
 Osrc/main/java/com/abnambro/customer/account/manager/service/AccountService.java,9/d/9db7e0f0edc885c4852eba533434858674a03d62
-~
-Nsrc/main/java/com/abnambro/customer/account/manager/security/jwt/JwtUtils.java,2/a/2a7d5284cab6a8bc8fbb2377f017565e96420656
 Ö
 Usrc/main/java/com/abnambro/customer/account/manager/security/jwt/AuthTokenFilter.java,8/8/880de5c6d04d06c623f724de64db95babe4eb330
 ä

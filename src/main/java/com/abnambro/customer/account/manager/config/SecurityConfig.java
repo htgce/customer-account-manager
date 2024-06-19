@@ -81,6 +81,8 @@ public class SecurityConfig {
                         )
                         .permitAll()
                         .requestMatchers(
+                                "/abn-ambro-customer-management-documentation/**",
+                                "/abn-ambro-customer-management-api-docs/**",
                                 "/swagger-ui/**",
                                 "/swagger-ui.html",
                                 "/v2/api-docs/**",
