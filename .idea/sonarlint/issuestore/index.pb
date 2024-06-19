@@ -27,8 +27,6 @@ Nsrc/main/java/com/abnambro/customer/account/manager/model/entity/Customer.java
 Ssrc/main/java/com/abnambro/customer/account/manager/security/CustomUserDetails.java,2/7/27aca604753eff1120fc1b9981858bc1850d75e1
 |
 Lsrc/main/java/com/abnambro/customer/account/manager/web/LogonController.java,6/7/67ba738754ff72e5534a863b0da5a8b9712354e1
-~
-Nsrc/main/java/com/abnambro/customer/account/manager/web/AccountController.java,e/f/efbabee4d26848bac6031e18f4e152b560b45c7a
 }
 Msrc/test/java/com/abnambro/customer/account/manager/base/BaseServiceTest.java,d/6/d6c043a456dece4a49209ca200842fdd80e90b28
 R
@@ -59,8 +57,6 @@ Tsrc/main/java/com/abnambro/customer/account/manager/service/RegistrationService
 Ssrc/test/java/com/abnambro/customer/account/manager/service/AccountServiceTest.java,d/f/df2dde3ffd70d9d94a0123fef56142bd6a96a043
 
 Osrc/main/java/com/abnambro/customer/account/manager/service/AccountService.java,9/d/9db7e0f0edc885c4852eba533434858674a03d62
-…
-Usrc/main/java/com/abnambro/customer/account/manager/security/jwt/AuthTokenFilter.java,8/8/880de5c6d04d06c623f724de64db95babe4eb330
 Š
 Zsrc/main/java/com/abnambro/customer/account/manager/security/CustomUserDetailsService.java,3/6/36a4a0a42442830bf9cb3853f52b27bd39374831
 ‚

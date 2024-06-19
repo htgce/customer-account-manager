@@ -69,7 +69,6 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
-
         httpSecurity
                 .exceptionHandling(customizer -> customizer.authenticationEntryPoint(authEntryPointJwt))
                 .cors(customizer -> customizer.configurationSource(corsConfigurationSource()))
@@ -81,8 +80,6 @@ public class SecurityConfig {
                         )
                         .permitAll()
                         .requestMatchers(
-                                "/abn-ambro-customer-management-documentation/**",
-                                "/abn-ambro-customer-management-api-docs/**",
                                 "/swagger-ui/**",
                                 "/swagger-ui.html",
                                 "/v2/api-docs/**",
@@ -95,6 +92,6 @@ public class SecurityConfig {
                 .addFilterBefore(jwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
 
         return httpSecurity.build();
-
     }
+
 }

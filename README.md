@@ -124,6 +124,12 @@ $ cd customer-account-manager
 $ mvn clean install
 $ mvn spring-boot:run
 ```
+---
+### Open Api (Swagger 3)
+
+```
+http://localhost:1222/swagger-ui/index.html
+```
 
 ---
 ### Screenshots

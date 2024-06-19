@@ -45,7 +45,8 @@ public class AuthTokenFilter extends OncePerRequestFilter {
     ) throws ServletException, IOException {
 
         try {
-
+            log.info("Request:  {}",request.getRequestURI());
+            log.info("Request:  {}",request.getRequestURL());
             String jwt = parseJwt(request);
             log.error("AuthTokenFilter | doFilterInternal | jwt: {}", jwt);
 
