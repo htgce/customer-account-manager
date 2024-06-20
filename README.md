@@ -40,7 +40,6 @@ Rest Api Service Responsible For Customer Account Management
     <td>/account/overview</td>
     <td>Get user info</td>
     <td>Authorization header with Bearer token</td>
-    <td>User Information</td>
     <td></td>
     <td></td>
   </tr>
