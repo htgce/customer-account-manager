@@ -82,21 +82,9 @@ Import postman collection under postman_collection folder
 http://localhost:1222/swagger-ui/index.html
 ```
 
----
-### Prerequisites
 
-#### Define Variable in .env file
-
-```
-DATABASE_USERNAME={DATABASE_USERNAME}
-DATABASE_PASSWORD={DATABASE_PASSWORD}
-PARKING_LOT_LIQUIBASE_ENABLE_DROP_FIRST=true
-```
-
----
 - Maven or Docker
 ---
-
 
 ### Docker Run
 The application can be built and run by the `Docker` engine. The `Dockerfile` has multistage build, so you do not need to build and run separately.
