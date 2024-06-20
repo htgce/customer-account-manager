@@ -80,12 +80,12 @@ Import postman collection under postman_collection folder
 
 ```
 http://localhost:1222/swagger-ui/index.html
+http://localhost:1222/v3/api-docs
 ```
 
 
 - Maven or Docker
 ---
-
 ### Docker Run
 The application can be built and run by the `Docker` engine. The `Dockerfile` has multistage build, so you do not need to build and run separately.
 
